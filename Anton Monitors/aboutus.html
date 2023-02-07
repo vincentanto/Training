@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anton Monitors</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body >
+    <header>
+        
+        <div class="na" style="background-color:transparent">
+            
+        <ul>
+        <a>    <img src="logo.png" width="10%" class="logo"></a>   
+      <a href="index.html" class="nh">Home</a>
+      <a href="aboutus.html" class="nh">About us</a>
+      <a href="productmain.html" class="nh">Product</a>
+      <a href="contactus.html" class="nh">Contact us</a>
+    </ul>
+    </div>
+   
+    </header>
+    <div class="pbtn">
+        <button id="myBtn" onclick="myFunction()">Pause</button>
+    </div>
+    <video autoplay muted loop id="myVideo">
+        <source src="vid/ad1.mp4" type="video/mp4">
+      </video>
+      
+      <!-- Optional: some overlay text to describe the video -->
+      <div class="content">
+        <div class="abt">
+        <h1 style="font-size: 50px; text-align:center ;">ANTON MONITORS</h1>
+        <br>
+        <br>
+        <p style="font-size:20px">Founded in 2020 in Chennai (India), ANTON is an Indian /E-Commerce, IT & Gaming Peripherals, Mobile/ Lifestyle Accessories, Power Solutions, Healthcare & Surveillance Solutions brand with a mission to provide products which are Great on design, performance yet so easy on pocket, that every household in the country can afford.</p>
+       <br>
+       <br>
+        <h1>OUR Company</h1>
+        <br>
+       <p>Today, ANTON employs over 1,200 people across 25 Offices and 680+ Service Centres covering 19000+ Pincodes in India (including 130+ Priority Zeb Cares). The offices are backed by strong network of dealers, resellers and integrators adding to retail presence of over 50,000+ locations across length and breadth of the country. The Zeb Care (service centers) provide support to the consumers and the channel network.</p>
+      <br>
+      <br>
+       <h1>Constant Innovation</h1>
+       <br>
+       <p>At ANTON, product feedback from the consumers and channel partners always been considered as a source of development. We give back the customers a fabulous product experience with some of industry's unique launches, implementing and executing campaigns which were the first in the industry, like The Sound Monster Augmented Reality Experience, a structured Product Packaging, Design factor on products</p>
+       <br>
+       <br>
+       <h1>Corporate Vision</h1>
+       <br>
+       <p>Staying one step ahead of the market has always been our goal. Like other world-class companies, we are proud of our success, but we are never satisfied. At ANTON, we are committed and working hard to deliver the innovative solutions our customer's need, building the framework for sustainable growth, going forward and staying "Always Ahead".</p>
+        <!-- Use a button to pause/play the video with JavaScript -->
+       
+    </div>
+    </div>
+    
+    <script>
+        // Get the video
+        var video = document.getElementById("myVideo");
+        
+        // Get the button
+        var btn = document.getElementById("myBtn");
+        
+        // Pause and play the video, and change the button text
+        function myFunction() {
+          if (video.paused) {
+            video.play();
+            btn.innerHTML = "Pause";
+          } else {
+            video.pause();
+            btn.innerHTML = "Play";
+          }
+        }
+        </script>
+</body>
+</html>

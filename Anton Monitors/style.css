@@ -1,0 +1,257 @@
+*{
+    margin:"none";
+    border:"none";
+    font-family: sans-serif;
+}
+
+.na{
+    box-shadow: 0 3px 8px 0 rgba(0,0,0,0.2);
+   width: 100vw;
+   position:fixed;
+   z-index: 100;
+   padding-top: 2em;
+   text-align:bottom;
+   background-color:white;
+   height: 15vh;
+   /* overflow: hidden; */
+   display:flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+}
+.nh{
+    /* overflow:hidden; */
+    padding-right: 11px;
+    padding-left: 11px;
+    font-size: 30px;
+    text-decoration:none;
+    color:rgb(9, 126, 169);
+    /* display: flex;
+    flex-direction: row;
+    width: 80vw; */
+    /* float: left; */
+    height: 10vh;
+    padding-top: 2em;
+    align-items: center;
+    /* flex-direction:column ; */
+    /* justify-content: space-between; */
+}
+.nh:hover{
+    
+  color: rgb(6, 172, 244);
+  text-decoration:wavy;
+}
+.carousel-inner > .carousel-item > img{
+    height: 60vh;
+    
+}
+
+.bdy{
+     padding:40vh;
+    background-image:url('background.jpeg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+
+
+}
+.abth{
+    text-align: center;
+}
+.pcard{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.ard{
+  box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+    width: 400px;
+    height: 70vh;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    display: inline;
+}
+.ard img{
+  aspect-ratio: 3/2;
+  height: 320px;
+}
+.ard button{
+  cursor: pointer;
+}
+.pi:hover{
+  /* transition: 2s ease-in zoom; */
+  transform: scale(1.05);
+}
+.pi{
+    width: 90%;
+    height: 80%;
+}
+.contact-container {
+    padding: 20px;
+    position:relative;
+    color:rgb(14, 151, 230);
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  /* form {
+    margin-top: 5vh;
+    display: inline-block;
+    text-align: left;
+  }*/
+form{
+  background-color: aliceblue;
+  box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 30px 20px;
+}
+  label {
+    font-size: 18px;
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  textarea {
+    font-size: 18px;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+  }
+  
+  input[type="submit"] {
+    font-size: 18px;
+    padding: 10px 20px;
+    background-color: #0d84af;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+  .payment-container {
+    padding: 20px;
+    padding-top: 20vh;
+    text-align: center;
+    color: #0d84af;
+  }
+  
+ 
+  
+  .payment-options {
+    display: inline-block;
+    width: 300px;
+    text-align: left;
+    margin: 20px;
+    box-sizing: border-box;
+    vertical-align: top;
+  }
+  .fd{
+    box-shadow: 0 3px 8px 0 rgba(0,0,0,0.2);
+    width: 70%;
+    height: 60%;
+    text-align: center;
+    
+  }
+  #myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+  
+  /* Add some content at the bottom of the video/page */
+  .content {
+  
+    position:relative;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  /* Style the button used to pause/play the video */
+  #myBtn {
+    width: 150px;
+    font-size: 15px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  #myBtn:hover {
+    background: #ddd;
+    color: black;
+  }
+  .abt{
+    margin-top: 9.5%;
+  }
+  .pbtn{
+    margin-top: 5vh;
+    margin-left: 88%;
+    float:right;
+    position: fixed;
+    z-index: 100;
+  }
+ #cs{
+  background: rgb(238,174,202);
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+ }
+ /*footer*/
+ .ft{
+  
+  bottom: 0;
+  display: flex;;
+  background-color: #0d84af;
+  text-align: center;
+  align-items: center;
+  color:aliceblue;
+ justify-content: center;
+  height: 10vh;
+  width: 100%;
+ }
+ #awd {
+  position:fixed;
+  height: 10vh;
+  min-width: 100%;
+}
+
+.awvid{
+  justify-content: center;
+  position: relative;
+}
+.awd video {
+  position:relative;
+  z-index:0;
+}
+.vid{
+ object-fit: fill;
+}
+#cn{
+  color: #f1f1f1;
+  margin-top: 25vh;
+  position:absolute;
+   z-index: 100;
+   position:absolute;
+   top:0;
+   left:0;
+   z-index:1;
+}
