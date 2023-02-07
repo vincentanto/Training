@@ -1,0 +1,13 @@
+#first{
+    float:left;
+    width:40%;
+    background: linear-gradient(to bottom, #33ccff 0%, #003399 100%);
+    border-radius:4%;
+}
+#second{
+    float:right;
+    width:58%;
+}
+img:hover{
+    opacity:0.5;
+}
