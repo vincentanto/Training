@@ -1,9 +1,13 @@
-function check(array){
+function check(value){
     let v=Number(0);
-    for(let i=1;i<array.length;i++){
-       v+=Number(array[i]);
+    let n=Number(value)
+    while(n>0){
+        
+       v+=Math.floor(n%10);
+       n/=10;
     }
     return v%2==1 ? "Oddish":"Evenish";
 }
-console.log(check([2,3,4,1]));
-console.log(check([2,6,8,1]));
+console.log(check(678));
+console.log(check(373));
+console.log(check(246));
