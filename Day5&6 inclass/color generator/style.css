@@ -1,0 +1,30 @@
+body{
+    height: 100vh;
+    margin: 0;
+    place-items: center;
+    display: grid;
+}
+.bdy{
+    background-color: aliceblue;
+    border: 2px solid black;
+    border-radius: 20%;
+    height: 400px;
+    width: 350px;
+    place-items: center;
+    display: grid;
+
+}
+#cp{
+    height: 50px;
+    width: 70px;
+    border:none;
+    cursor: pointer;
+}
+#tid{
+    outline: none;
+    border: 2px solid #333;
+    border-radius: 50px;
+    height: 40px;
+    width: 120px;
+    padding: 0 10px;
+}

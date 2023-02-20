@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Color Picker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="bdy">
+        <h2>Pick the Colour U Want</h2>
+        <input type="color" id="cp" value="#ffff">
+        <h3>HEX id</h3>
+        <br>
+        <input type="text" id="tid" disabled>
+    </div>
+    <script>
+        
+        function color(){
+            var cl=document.getElementById("cp").value;
+            document.body.style.backgroundColor=cl;
+            document.getElementById("tid").value=cl;
+        }
+        document.getElementById("cp").addEventListener('input',color);
+    </script>
+</body>
+</html>
