@@ -1,0 +1,124 @@
+
+body{
+    height: 100vh;
+    background-image: url('img/form-bg.jpg');
+    background-repeat: no-repeat;
+   
+    background-size:135%;
+}
+form * {
+    color: #f21ace;
+    align-items: center;
+    box-sizing: border-box;
+    font-family: 'Tangerine', serif;
+    font-weight: 1000;
+    font-size: 25px;
+  }
+  
+ 
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  select,
+  textarea {
+    align-items: center;
+    display: block;
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  select option:first-child {
+    display: none;
+  }
+  
+  input[type="submit"] {
+    display: block;
+    margin: 20px auto 0;
+    padding: 10px 20px;
+    background-color: #f21ace;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #fff;
+    color: #f21ace;
+    border:2px solid #f21ace;
+  }
+  
+  
+  #error-container {
+    color: red;
+    margin-bottom: 20px;
+  }
+  
+  .error {
+    margin-bottom: 5px;
+  }
+  nav{
+    width: 100%;
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-block: 15px;
+}
+.logo{
+    left: 0;
+    width: 120px;
+}
+nav ul li{
+    color:deeppink;
+    display: inline-block;
+    list-style: none;
+    margin:0px 40px;
+}
+
+nav ul li a{
+    color:deeppink;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+}
+nav ul li a::after{
+    content: '';
+    width: 0%;
+    height: 3px;
+    background:#fff;
+    position: absolute;
+    left:0;
+    bottom: -6px;
+    transition: 0.5s;
+}
+nav ul li a:hover::after{
+    width: 100%;
+}
+nav ul li h6{
+    position:absolute;
+    color: rgb(54, 5, 5);
+   top: 5px;
+   padding-left: 10px;
+}
+
+
+nav ul li p{
+    color: deeppink;
+    font-family: 'Tangerine', serif;
+    font-weight: 1000;
+    font-size: 25px;
+}
+.container{
+    padding: 10px 10%;
+
+}
