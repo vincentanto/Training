@@ -4,6 +4,9 @@
     font-family:'poppins',sans-serif;
     box-sizing:border-box;
 }
+html {
+    scroll-behavior: smooth;
+  }
 body{
     background: #080808;
     color:#fff;
@@ -17,31 +20,30 @@ body{
 }
 .container{
     padding: 10px 10%;
-    
 
 }
+
 nav{
     width: 100%;
     display:flex;
-    align-items: center;
-    justify-content: center;
     flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-block: 15px;
 }
-.logo{
-    left: 0;
-    width: 120px;
-}
+
 nav ul li{
     color:deeppink;
     display: inline-block;
     list-style: none;
-    margin:50px 40px;
+    margin:50px 25px;
 }
 
 nav ul li a{
     color:deeppink;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 5px;
     position: relative;
 }
 nav ul li a::after{
