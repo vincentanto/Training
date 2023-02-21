@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>transition with js</title>
+</head>
+<body>
+    <center> <h1>transition using js</h1></center>
+    <div class="home">
+   
+   <div class="lef">
+      <center><h2>hover</h2></center>
+<img src="img/small.png" id="l">
+
+    </div>
+    <div class="rig" id="u" >
+       
+       <center><h2>click the image</h2></center>
+       <img id="myImage"  src="img/close.png" width="1000px" height="400px">
+    
+    </div>
+
+</div>
+<script>
+    document.getElementById("myImage").addEventListener('click',changeImage);
+function changeImage() {
+  var image = document.getElementById('myImage');
+  if (image.src.match("close")) {
+    image.src = "img/open.png";
+  } else {
+    image.src = "img/close.png";
+  }
+}var emoji = document.querySelector("#l");
+emoji.addEventListener('mouseover' , ()=>{
+    emoji.src = "img/big.png";
+})
+emoji.addEventListener('mouseout' , ()=>{
+    emoji.src = "img/small.png";
+})
+    
+</script>
+</body>
+</html>

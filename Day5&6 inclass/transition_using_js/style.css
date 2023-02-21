@@ -1,0 +1,41 @@
+.home{
+    height: 100vh;
+    width: 100%;
+    background-color: aliceblue;
+    background-size: cover;
+    display: flex;
+    background-position: center;
+    margin-top: 10vh;
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+   
+}
+
+.lef{
+    flex-basis: 45%;
+    
+
+}
+/* #l{
+    width: 200px;
+    height: 300px;
+}
+#r{
+    width: 300px;
+    height: 200px;
+} */
+.rig{
+
+    
+    flex-basis: 45%;
+  
+}
+/* #l:hover {
+    transform: scale(1.50);
+} */
+.rig img{
+    width: 700px;
+}
