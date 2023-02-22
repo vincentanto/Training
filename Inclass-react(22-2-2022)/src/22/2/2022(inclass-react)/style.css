@@ -1,0 +1,18 @@
+.btn{
+    margin-top: 7%;
+    height: 40px;
+    width: 80px;
+    border-radius: 20px;
+    background-color:#ffff;
+    color:deeppink;
+    border-color:#fff;
+}
+.btn:hover {
+    background-color: #fff;
+    color: deeppink;
+    border-color: deeppink;
+}
+.parent{
+    background-color: deeppink;
+    height: 100vh;
+}
