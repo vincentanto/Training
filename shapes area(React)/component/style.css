@@ -1,0 +1,33 @@
+.child{
+    border-radius: 5%;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+      width: 400px;
+      height: 40vh;
+      padding: 10px;
+      margin: 10px;
+      text-align: center;
+      display: inline;
+      color:deeppink;
+      background-color: aliceblue;
+    
+}
+.parent{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: deeppink;
+}
+.btn{
+    margin-top: 7%;
+    height: 40px;
+    width: 80px;
+    border-radius: 20px;
+    background-color: deeppink;
+    color:#fff;
+    border-color:#fff ;
+}
+.btn:hover {
+    background-color: #fff;
+    color: deeppink;
+    border-color: deeppink;
+}
